@@ -47,8 +47,9 @@ const Navbar = () => {
   <nav className="navbar navbar-expand-lg navbar-mainbg">
     
       <Link className="navbar-brand navbar-logo" to="/" >
-        Web Solutions
+        JobPortal
       </Link>
+   
     
     
       <button 
@@ -62,7 +63,7 @@ const Navbar = () => {
  
       <div 
         className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav ml-auto">
+        <ul className="navbar-nav ms-auto">
             
             <div className="hori-selector">
               <div className="left"></div>
@@ -84,7 +85,13 @@ const Navbar = () => {
                 </i>About
               </Link> 
             </li>
-
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact" >
+                <i 
+                className="far fa-copy">
+                </i>Contact Us
+              </Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/service" >
                 <i 
@@ -99,13 +106,7 @@ const Navbar = () => {
                 </i>Testimonial
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact" >
-                <i 
-                className="far fa-copy">
-                </i>Contact Us
-              </Link>
-            </li>
+          
         </ul>
       </div>
   </nav>
