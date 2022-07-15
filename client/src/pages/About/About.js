@@ -18,10 +18,12 @@ const About = () => {
           </div>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
+          {/* <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
             <h6>Creative Design</h6>
-            <p>We are always creative and and always lisen our costomers and we mix these two things and make beast design.</p>
-          </div>
+            <p>We are always creative and and always lisen our costomers and we mix these two things and make beast design.</p> */}
+          {/* </div> */}
+          <img src={require("../Home/teamwork.jpg")} className = "banner-image" alt ="monitoring"/>
+
         </div>
         <div class="col-lg-4 col-sm-6">
           <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
@@ -30,10 +32,11 @@ const About = () => {
           </div>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
+          {/* <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
             <h6>Business Growth</h6>
             <p>Everyone wants to live on top of the mountain, but all the happiness and growth occurs while you're climbing it</p>
-          </div>
+          </div> */}
+           <img src={require("../Home/girl.jpg")} className = "banner-image" alt ="monitoring"/>
         </div>
         <div class="col-lg-4 col-sm-6">
           <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
@@ -42,10 +45,12 @@ const About = () => {
           </div>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
+          {/* <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
             <h6>Affordable cost</h6>
             <p>Love is a special word, and I use it only when I mean it. You say the word too much and it becomes cheap.</p>
-          </div>
+          </div> */}
+          <img src={require("../Home/resume.jfif")} className = "banner-image" alt ="monitoring"/>
+           
         </div>
       </div>
     </div>
