@@ -1,7 +1,10 @@
 import React from 'react'
 import '../About/About.css'
+
+
 const About = () => {
   return (
+    
     <div className="container">
     
     <div class="feat bg-gray pt-5 pb-5">
@@ -57,6 +60,7 @@ const About = () => {
   </div>
       
     </div>
+    
   )
 }
 export default About;

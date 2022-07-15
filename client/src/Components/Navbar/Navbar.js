@@ -100,10 +100,10 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/testimonial" >
+              <Link className="nav-link" to="/SignupAndLogin" >
                 <i 
-                className="far fa-chart-bar">
-                </i>Testimonial
+                className="far fa-person">
+                </i>SignUp & Login
               </Link>
             </li>
           
